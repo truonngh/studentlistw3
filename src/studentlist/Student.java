@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template in the editor. 
  */
 package studentlist;
 
@@ -11,6 +11,7 @@ package studentlist;
  */
 public class Student
 {
+    private  double ptID;
     private String name;
     private int age;
 
@@ -40,6 +41,20 @@ public class Student
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the ptID
+     */
+    public double getPtID() {
+        return ptID;
+    }
+
+    /**
+     * @param ptID the ptID to set
+     */
+    public void setPtID(double ptID) {
+        this.ptID = ptID;
     }
     
 }
